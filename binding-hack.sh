@@ -7,7 +7,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: cloudant-binding
-  namespace: <my_project>
+  namespace: sn-labs-pallavir
 type: Opaque
 data:
   url: $B64_URL
